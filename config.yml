@@ -1,13 +1,1 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: debian:stretch
-    steps:
-      - checkout
-      - run:
-          name: Greeting
-          command: echo Herzlich willkommen
-      - run:
-          name: Print the Current Time
-          command: date
+echo herzlich willkommen 
